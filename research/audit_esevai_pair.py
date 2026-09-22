@@ -1,45 +1,26 @@
 #!/usr/bin/env python3
-"""Compare one Tamil Nadu e-Sevai service in English and Tamil.
+"""axe-core on Tamil Nadu e-Sevai, English and Tamil sessions.
 
-Service: Community Certificate (REV-101), the first revenue certificate on the
-public e-Sevai service list. The application form is behind sign-in, so the
-pair that can be checked without an account is:
-
-  1. The portal entry, https://www.tnesevai.tn.gov.in/
-     Tamil is the default page. English is the "English Version" postback on
-     that same URL, not a second address.
-  2. The service list reached from that language session,
-     Pages/EsevaiServiceList.aspx, which is the public page that names the
-     certificate.
-
-Both pages are checked with axe-core's WCAG 2.0, 2.1, and 2.2 A and AA tags.
-The report says which rules fail on both sides and which fail on only one side.
+Community Certificate (REV-101). Tamil is the default page. English is the
+"English Version" postback on the same URL. The form is behind sign-in, so
+the checked pages are the portal and Pages/EsevaiServiceList.aspx.
+Writes research/data/esevai_rev101.json.
 """
 
 from __future__ import annotations
 
 import json
 from datetime import datetime, timezone
-from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
-ROOT = Path(__file__).resolve().parents[1]
-AXE = ROOT / "node_modules" / "axe-core" / "axe.min.js"
-WCAG_TAGS = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"]
-UA = (
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
-)
-OUT = ROOT / "research" / "data" / "esevai_rev101.json"
+from common import AXE, DATA, UA, WCAG_TAGS, axe_violations, count_scripts, provenance
+
+OUT = DATA / "esevai_rev101.json"
 HOME = "https://www.tnesevai.tn.gov.in/"
 SERVICE_HREF = "a[href='Pages/EsevaiServiceList.aspx']"
 SERVICE_CODE = "REV-101"
 SERVICE_NAME = "Community Certificate"
-
-
-def tamil_chars(text: str) -> int:
-    return sum(1 for ch in text if "\u0b80" <= ch <= "\u0bff")
 
 
 def language_evidence(page) -> dict:
@@ -48,42 +29,16 @@ def language_evidence(page) -> dict:
         "final_url": page.url,
         "title": page.title(),
         "html_lang": page.evaluate("() => document.documentElement.getAttribute('lang')"),
-        "tamil_chars": tamil_chars(text),
+        "tamil_chars": count_scripts(text).get("Tamil", 0),
         "offers_english_switch": page.locator("a", has_text="English Version").count() > 0,
         "offers_tamil_switch": page.locator("a", has_text="தமிழ் வடிவம்").count() > 0,
         "names_service": SERVICE_CODE in text or SERVICE_NAME in text,
     }
 
 
-def ensure_axe(page) -> None:
-    # Do not use add_init_script. Re-injecting axe during the language
-    # postback crashes Firefox. Inject it only after the page has settled.
-    ready = page.evaluate("() => typeof axe === 'object'")
-    if not ready:
-        page.add_script_tag(path=str(AXE))
-
-
 def run_axe(page) -> dict:
-    ensure_axe(page)
-    raw = page.evaluate(
-        """(tags) => axe.run(document, {
-            runOnly: { type: 'tag', values: tags },
-            resultTypes: ['violations']
-        })""",
-        WCAG_TAGS,
-    )
-    violations = []
-    for item in raw.get("violations", []):
-        violations.append(
-            {
-                "id": item.get("id"),
-                "impact": item.get("impact"),
-                "help": item.get("help"),
-                "wcag": [tag for tag in item.get("tags", []) if tag.startswith("wcag")],
-                "nodes": len(item.get("nodes") or []),
-            }
-        )
-    violations.sort(key=lambda item: item["id"])
+    # Inject axe only after the language postback. add_init_script crashes Firefox here.
+    violations = axe_violations(page)
     return {
         "violation_count": sum(item["nodes"] for item in violations),
         "rule_count": len(violations),
@@ -211,9 +166,11 @@ def main() -> None:
             "service_list": compare(en["service_list"], ta["service_list"]),
         }
 
+    generated_at = datetime.now(timezone.utc).isoformat()
     payload = {
         "summary": {
-            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "generated_at": generated_at,
+            "provenance": provenance("research/audit_esevai_pair.py", HOME, generated_at),
             "engine": "axe-core",
             "tags": WCAG_TAGS,
             "service": SERVICE_NAME,

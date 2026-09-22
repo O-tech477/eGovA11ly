@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-09-22T20:20:49.092148+00:00",
+  "source": "research/data/esevai_rev101.json",
+  "provenance": {
+    "script": "research/align_esevai.py",
+    "source": "research/data/esevai_rev101.json",
+    "retrieved": "2026-09-22T20:20:49.092148+00:00"
+  },
+  "service": "Community Certificate",
+  "service_code": "REV-101",
+  "required_languages": [
+    "en",
+    "ta"
+  ],
+  "obligation": {
+    "source": "GIGW 3.0",
+    "url": "https://guidelines.india.gov.in/lifecycle-management/",
+    "clauses": {
+      "5.4.10": "Website/app is bilingual with a prominent language selection link and uses Unicode characters. Translate all content, or the widely accessed sections, into the regional language.",
+      "5.4.6": "Documents/pages in multiple languages are updated simultaneously so visitors get the same content in each language."
+    },
+    "regional_language": "ta"
+  },
+  "rule": "A page is a language pair only when the Tamil session has at least 100 more Tamil characters than the English session.",
+  "pages": {
+    "portal_entry": {
+      "page": "portal_entry",
+      "url_en": "https://www.tnesevai.tn.gov.in/",
+      "url_ta": "https://www.tnesevai.tn.gov.in/",
+      "tamil_chars_en": 27,
+      "tamil_chars_ta": 1642,
+      "tamil_gain": 1615,
+      "names_service_en": false,
+      "names_service_ta": false,
+      "comparable": true,
+      "reason": "Tamil text increased after the language switch, so the two sessions are the same step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": false,
+      "accessibility_only_en": [],
+      "accessibility_only_ta": [],
+      "shared_failures": [
+        "color-contrast",
+        "html-has-lang",
+        "image-alt",
+        "marquee",
+        "target-size"
+      ]
+    },
+    "service_list": {
+      "page": "service_list",
+      "url_en": "https://www.tnesevai.tn.gov.in/Pages/EsevaiServiceList.aspx",
+      "url_ta": "https://www.tnesevai.tn.gov.in/Pages/EsevaiServiceList.aspx",
+      "tamil_chars_en": 16,
+      "tamil_chars_ta": 16,
+      "tamil_gain": 0,
+      "names_service_en": true,
+      "names_service_ta": true,
+      "comparable": false,
+      "reason": "The Tamil session did not gain Tamil text, so this is not a Tamil page. Identical axe results are not scored.",
+      "content_gap": true,
+      "accessibility_scored": false,
+      "accessibility_gap": null,
+      "gigw": [
+        "5.4.10",
+        "5.4.6"
+      ]
+    }
+  },
+  "verdict": {
+    "content_gaps": [
+      "service_list"
+    ],
+    "accessibility_gaps": [],
+    "summary": "The portal shell is a real English–Tamil pair and the axe failures match, so it has no accessibility gap. The service list stayed English, so it is a content gap under GIGW 5.4.10 and 5.4.6 and is not an accessibility pass."
+  }
+}

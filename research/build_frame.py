@@ -1,35 +1,9 @@
 #!/usr/bin/env python3
-"""Rebuild the Indian government website frame and inventory language versions.
+"""Harvest igod.gov.in into research/data/site_frame.json.
 
-This is the first research step in eGovA11y_Brief.pdf ("refresh the site list…
-identify which have multiple language versions") with the stratification fixed
-before any accessibility sample is drawn (research task 4).
-
-It is not an accessibility audit. WAccess (arXiv:2107.06799) already counted
-violations on 2,227 homepages from the old directory PDFs; the brief treats a
-re-run of that count as not a contribution. Sridhar's architecture note defers
-parity scoring and GIGW obligation mapping, and starts the detector on one
-service. Those later steps need this frame first: which portals exist, and
-which of them expose another language.
-
-Population frame
-    Integrated Government Online Directory, https://igod.gov.in/
-    (NIC; the current successor of the GOI web directory WAccess used).
-
-Strata fixed before sampling
-    union_ministry  Census of igod ug/E002. Small, and the policy owners.
-    state_portal    Census of the "State Portal" entry on each state/UT
-                    category page. This is where a regional language version
-                    is expected. N is the number of states and UTs, not a sample.
-    deferred        Union schemes, state departments, districts, courts.
-                    Districts dominated the old counts and are the wrong unit
-                    until a service (not a homepage) is defined.
-
-What a row means
-    A directory entry plus a homepage language inventory. A second version is
-    "confirmed" only when an alternate URL on the same site returns a page.
-    A language switcher that we did not fetch is recorded as a candidate, not
-    as a confirmed version.
+State portals (one per state/UT page) and the first page of union ministries.
+Each row is the homepage plus at most four same-site language links.
+No axe run. Source URL is stored on the file.
 """
 
 from __future__ import annotations
@@ -48,8 +22,7 @@ from http.cookiejar import CookieJar
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
-ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "research" / "data"
+from common import DATA, count_scripts, provenance
 IGOD = "https://igod.gov.in"
 UA = (
     "eGovA11yResearch/0.1 "
@@ -86,7 +59,6 @@ LANGUAGE_LABELS = {
     "odia": "or",
     "oriya": "or",
     "ଓଡ଼ିଆ": "or",
-    "odia": "or",
     "assamese": "as",
     "অসমীয়া": "as",
     "urdu": "ur",
@@ -98,19 +70,6 @@ LANGUAGE_LABELS = {
 PATH_LANG = {
     "en", "hi", "ta", "te", "kn", "ml", "mr", "bn", "gu", "pa", "or", "od",
     "as", "ur", "kok", "mni", "sa", "ne", "doi", "mai", "sat", "sd",
-}
-
-SCRIPTS = {
-    "Devanagari": (0x0900, 0x097F),
-    "Bengali": (0x0980, 0x09FF),
-    "Gurmukhi": (0x0A00, 0x0A7F),
-    "Gujarati": (0x0A80, 0x0AFF),
-    "Odia": (0x0B00, 0x0B7F),
-    "Tamil": (0x0B80, 0x0BFF),
-    "Telugu": (0x0C00, 0x0C7F),
-    "Kannada": (0x0C80, 0x0CFF),
-    "Malayalam": (0x0D00, 0x0D7F),
-    "Arabic": (0x0600, 0x06FF),
 }
 
 SCRIPT_TO_LIKELY = {
@@ -350,17 +309,6 @@ class _LangExtractor(HTMLParser):
             self.text_parts.append(data)
 
 
-def script_counts(text: str) -> dict[str, int]:
-    counts = {name: 0 for name in SCRIPTS}
-    for ch in text:
-        o = ord(ch)
-        for name, (lo, hi) in SCRIPTS.items():
-            if lo <= o <= hi:
-                counts[name] += 1
-                break
-    return {k: v for k, v in counts.items() if v >= 15}
-
-
 def norm_lang(value: str | None) -> str | None:
     if not value:
         return None
@@ -425,7 +373,7 @@ def fetch_page(url: str) -> FetchResult:
         parser.feed(html)
         result.html_lang = norm_lang(parser.html_lang)
         result.hreflang = parser.hreflang
-        result.scripts = script_counts(" ".join(parser.text_parts)[:200_000])
+        result.scripts = count_scripts(" ".join(parser.text_parts)[:200_000], minimum=15)
         result._anchors = parser.anchors  # type: ignore[attr-defined]
         result._html_ok = True  # type: ignore[attr-defined]
     except Exception as exc:  # network failures are data, not crashes
@@ -565,9 +513,11 @@ def build() -> dict:
                 print(f"  probed {done}/{len(orgs)}", flush=True)
 
     records.sort(key=lambda r: (r["stratum"], r.get("state") or "", r["name"]))
+    generated_at = datetime.now(timezone.utc).isoformat()
     summary = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": generated_at,
         "source": IGOD,
+        "provenance": provenance("research/build_frame.py", IGOD, generated_at),
         "strata_harvested": list(ACTIVE_STRATA),
         "strata_deferred": [
             "union_scheme",

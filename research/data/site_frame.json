@@ -2,6 +2,11 @@
   "summary": {
     "generated_at": "2026-09-22T19:12:43.108401+00:00",
     "source": "https://igod.gov.in",
+    "provenance": {
+      "script": "research/build_frame.py",
+      "source": "https://igod.gov.in",
+      "retrieved": "2026-09-22T19:12:43.108401+00:00"
+    },
     "strata_harvested": [
       "union_ministry",
       "state_portal"

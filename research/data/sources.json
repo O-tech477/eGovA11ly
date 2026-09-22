@@ -1,0 +1,26 @@
+{
+  "site_frame.json": {
+    "script": "research/build_frame.py",
+    "source": "https://igod.gov.in",
+    "retrieved": "2026-09-22T19:12:43.108401+00:00",
+    "what": "57 directory rows: 36 state and union-territory portals, and the first page of union ministries. Each row is a homepage plus at most four same-site language links."
+  },
+  "esevai_rev101.json": {
+    "script": "research/audit_esevai_pair.py",
+    "source": "https://www.tnesevai.tn.gov.in/",
+    "retrieved": "2026-09-22T19:55:11.504036+00:00",
+    "what": "axe-core 4.13.0 on the English and Tamil sessions of Community Certificate (REV-101). Pages: portal entry and the public service list. The form behind sign-in was not opened."
+  },
+  "esevai_rev101_alignment.json": {
+    "script": "research/align_esevai.py",
+    "source": "research/data/esevai_rev101.json",
+    "retrieved": "2026-09-22T20:20:49.092148+00:00",
+    "what": "The 100-character Tamil rule applied to the e-Sevai axe file. No second page fetch."
+  },
+  "frame_alignment.json": {
+    "script": "research/align_frame.py",
+    "source": "research/data/site_frame.json",
+    "retrieved": "2026-09-22T20:34:20.150918+00:00",
+    "what": "Same 100-character rule on 13 shallow language homepages taken from the directory file, then opened again in Firefox for axe-core. e-Sevai is not repeated here."
+  }
+}

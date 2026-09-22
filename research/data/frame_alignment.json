@@ -1,0 +1,553 @@
+{
+  "generated_at": "2026-09-22T20:34:20.150918+00:00",
+  "source": "research/data/site_frame.json",
+  "provenance": {
+    "script": "research/align_frame.py",
+    "source": "research/data/site_frame.json",
+    "retrieved": "2026-09-22T20:34:20.150918+00:00"
+  },
+  "obligation": {
+    "source": "GIGW 3.0",
+    "url": "https://guidelines.india.gov.in/lifecycle-management/",
+    "clauses": [
+      "5.4.10",
+      "5.4.6"
+    ]
+  },
+  "rule": "Comparable when the regional page has at least 100 more characters of its script than the English page.",
+  "not_included": "Tamil Nadu e-Sevai is in esevai_rev101_alignment.json. Sites with no shallow language URL are skipped.",
+  "summary": {
+    "pairs_attempted": 13,
+    "comparable": 12,
+    "content_gaps": 1,
+    "accessibility_gaps": 3,
+    "failed": 0,
+    "skipped": 10
+  },
+  "pairs": [
+    {
+      "name": "Andaman and Nicobar Islands",
+      "stratum": "state_portal",
+      "profile": "confirmed_second_version",
+      "script": "Devanagari",
+      "hint": "hi",
+      "en_url": "https://andamannicobar.gov.in",
+      "other_url": "https://andamannicobar.gov.in/ANHindi/",
+      "probe_gain": 2629,
+      "en_final_url": "https://andamannicobar.gov.in/",
+      "other_final_url": "https://andamannicobar.gov.in/ANHindi/",
+      "live_en_scripts": {
+        "Devanagari": 23
+      },
+      "live_other_scripts": {
+        "Devanagari": 2198
+      },
+      "live_gain": 2175,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": false,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [],
+      "shared_failures": [
+        "aria-input-field-name",
+        "aria-required-children",
+        "button-name",
+        "color-contrast",
+        "image-alt",
+        "link-name",
+        "list",
+        "marquee",
+        "meta-viewport",
+        "nested-interactive",
+        "target-size"
+      ]
+    },
+    {
+      "name": "Assam",
+      "stratum": "state_portal",
+      "profile": "confirmed_second_version",
+      "script": "Bengali",
+      "hint": "as",
+      "en_url": "https://assam.gov.in",
+      "other_url": "https://assam.gov.in/as",
+      "probe_gain": 3537,
+      "en_final_url": "https://assam.gov.in/",
+      "other_final_url": "https://assam.gov.in/as",
+      "live_en_scripts": {},
+      "live_other_scripts": {
+        "Devanagari": 1,
+        "Bengali": 2444
+      },
+      "live_gain": 2444,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": false,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [],
+      "shared_failures": [
+        "aria-required-children",
+        "button-name",
+        "color-contrast",
+        "link-name",
+        "target-size"
+      ]
+    },
+    {
+      "name": "Chhattisgarh",
+      "stratum": "state_portal",
+      "profile": "confirmed_second_version",
+      "script": "Devanagari",
+      "hint": "home",
+      "en_url": "https://www.cgstate.gov.in/en",
+      "other_url": "https://www.cgstate.gov.in",
+      "probe_gain": 4293,
+      "en_final_url": "https://www.cgstate.gov.in/en",
+      "other_final_url": "https://www.cgstate.gov.in/hi",
+      "live_en_scripts": {
+        "Devanagari": 54
+      },
+      "live_other_scripts": {
+        "Devanagari": 5609
+      },
+      "live_gain": 5555,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": false,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [],
+      "shared_failures": [
+        "button-name",
+        "color-contrast",
+        "image-alt",
+        "link-name",
+        "list",
+        "nested-interactive"
+      ]
+    },
+    {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "stratum": "state_portal",
+      "profile": "confirmed_second_version",
+      "script": "Devanagari",
+      "hint": "hi",
+      "en_url": "https://ddd.gov.in",
+      "other_url": "https://ddd.gov.in/hi/",
+      "probe_gain": 4465,
+      "en_final_url": "https://ddd.gov.in/",
+      "other_final_url": "https://ddd.gov.in/hi/",
+      "live_en_scripts": {
+        "Gujarati": 74
+      },
+      "live_other_scripts": {
+        "Devanagari": 2630,
+        "Gujarati": 74
+      },
+      "live_gain": 2630,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": true,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [
+        "link-name"
+      ],
+      "shared_failures": [
+        "aria-allowed-attr",
+        "aria-required-children",
+        "aria-required-parent",
+        "color-contrast",
+        "frame-title"
+      ]
+    },
+    {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "stratum": "state_portal",
+      "profile": "confirmed_second_version",
+      "script": "Gujarati",
+      "hint": "gu",
+      "en_url": "https://ddd.gov.in",
+      "other_url": "https://ddd.gov.in/gu/",
+      "probe_gain": 4503,
+      "en_final_url": "https://ddd.gov.in/",
+      "other_final_url": "https://ddd.gov.in/gu/",
+      "live_en_scripts": {
+        "Gujarati": 74
+      },
+      "live_other_scripts": {
+        "Gujarati": 2875
+      },
+      "live_gain": 2801,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": true,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [
+        "link-name"
+      ],
+      "shared_failures": [
+        "aria-allowed-attr",
+        "aria-required-children",
+        "aria-required-parent",
+        "color-contrast",
+        "frame-title"
+      ]
+    },
+    {
+      "name": "Haryana",
+      "stratum": "state_portal",
+      "profile": "confirmed_second_version",
+      "script": "Devanagari",
+      "hint": "hi",
+      "en_url": "https://haryana.gov.in",
+      "other_url": "https://www.haryana.gov.in/hi/",
+      "probe_gain": 4299,
+      "en_final_url": "https://www.haryana.gov.in/",
+      "other_final_url": "https://www.haryana.gov.in/hi/",
+      "live_en_scripts": {
+        "Devanagari": 19
+      },
+      "live_other_scripts": {
+        "Devanagari": 2800
+      },
+      "live_gain": 2781,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": false,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [],
+      "shared_failures": []
+    },
+    {
+      "name": "Lakshadweep",
+      "stratum": "state_portal",
+      "profile": "confirmed_second_version",
+      "script": "Devanagari",
+      "hint": "hi",
+      "en_url": "https://lakshadweep.gov.in",
+      "other_url": "https://lakshadweep.gov.in/hi/",
+      "probe_gain": 3474,
+      "en_final_url": "https://lakshadweep.gov.in/",
+      "other_final_url": "https://lakshadweep.gov.in/hi/",
+      "live_en_scripts": {
+        "Devanagari": 33
+      },
+      "live_other_scripts": {
+        "Devanagari": 2787
+      },
+      "live_gain": 2754,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": false,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [],
+      "shared_failures": [
+        "aria-required-children",
+        "aria-required-parent",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "Odisha",
+      "stratum": "state_portal",
+      "profile": "confirmed_second_version",
+      "script": "Odia",
+      "hint": "or",
+      "en_url": "https://odisha.gov.in/en",
+      "other_url": "https://odisha.gov.in/or",
+      "probe_gain": 4420,
+      "en_final_url": "https://odisha.gov.in/en",
+      "other_final_url": "https://odisha.gov.in/or",
+      "live_en_scripts": {
+        "Odia": 11
+      },
+      "live_other_scripts": {
+        "Devanagari": 10,
+        "Odia": 3801
+      },
+      "live_gain": 3790,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": false,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [],
+      "shared_failures": [
+        "frame-title",
+        "html-has-lang",
+        "meta-viewport",
+        "target-size"
+      ]
+    },
+    {
+      "name": "Cooperation",
+      "stratum": "union_ministry",
+      "profile": "confirmed_second_version",
+      "script": "Devanagari",
+      "hint": "hi",
+      "en_url": "https://www.cooperation.gov.in/en",
+      "other_url": "https://www.cooperation.gov.in/hi",
+      "probe_gain": 6802,
+      "en_final_url": "https://www.cooperation.gov.in/en",
+      "other_final_url": "https://www.cooperation.gov.in/hi",
+      "live_en_scripts": {
+        "Devanagari": 87,
+        "Bengali": 19,
+        "Gurmukhi": 6,
+        "Gujarati": 7,
+        "Odia": 5,
+        "Tamil": 5,
+        "Telugu": 6,
+        "Kannada": 5,
+        "Malayalam": 6,
+        "Arabic": 8
+      },
+      "live_other_scripts": {
+        "Devanagari": 3182,
+        "Bengali": 19,
+        "Gurmukhi": 6,
+        "Gujarati": 7,
+        "Odia": 5,
+        "Tamil": 5,
+        "Telugu": 6,
+        "Kannada": 5,
+        "Malayalam": 6,
+        "Arabic": 8
+      },
+      "live_gain": 3095,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": false,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [],
+      "shared_failures": [
+        "aria-required-children",
+        "aria-valid-attr",
+        "color-contrast",
+        "frame-title",
+        "link-name",
+        "marquee",
+        "nested-interactive",
+        "target-size"
+      ]
+    },
+    {
+      "name": "Culture",
+      "stratum": "union_ministry",
+      "profile": "confirmed_second_version",
+      "script": "Devanagari",
+      "hint": "hi",
+      "en_url": "https://culture.gov.in",
+      "other_url": "https://culture.gov.in/hi",
+      "probe_gain": 105,
+      "en_final_url": "https://culture.gov.in/",
+      "other_final_url": "https://culture.gov.in/hi",
+      "live_en_scripts": {
+        "Devanagari": 15
+      },
+      "live_other_scripts": {
+        "Devanagari": 73
+      },
+      "live_gain": 58,
+      "comparable": false,
+      "error": null,
+      "reason": "The regional page did not gain enough of its script, so identical axe results are not scored.",
+      "content_gap": true,
+      "accessibility_scored": false,
+      "accessibility_gap": null,
+      "gigw": [
+        "5.4.10",
+        "5.4.6"
+      ]
+    },
+    {
+      "name": "Defence (MoD)",
+      "stratum": "union_ministry",
+      "profile": "confirmed_second_version",
+      "script": "Devanagari",
+      "hint": "hi",
+      "en_url": "https://www.mod.gov.in/en",
+      "other_url": "https://www.mod.gov.in/hi",
+      "probe_gain": 2718,
+      "en_final_url": "https://www.mod.gov.in/en",
+      "other_final_url": "https://www.mod.gov.in/hi",
+      "live_en_scripts": {
+        "Devanagari": 595
+      },
+      "live_other_scripts": {
+        "Devanagari": 3157
+      },
+      "live_gain": 2562,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": false,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [],
+      "shared_failures": [
+        "aria-hidden-focus",
+        "target-size"
+      ]
+    },
+    {
+      "name": "Food Processing Industries (MoFPI)",
+      "stratum": "union_ministry",
+      "profile": "confirmed_second_version",
+      "script": "Devanagari",
+      "hint": "hi",
+      "en_url": "https://mofpi.gov.in",
+      "other_url": "https://www.mofpi.gov.in/hi",
+      "probe_gain": 11089,
+      "en_final_url": "https://mofpi.gov.in/",
+      "other_final_url": "https://www.mofpi.gov.in/hi",
+      "live_en_scripts": {
+        "Devanagari": 38
+      },
+      "live_other_scripts": {
+        "Devanagari": 10556
+      },
+      "live_gain": 10518,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": false,
+      "accessibility_only_en": [],
+      "accessibility_only_other": [],
+      "shared_failures": [
+        "image-alt",
+        "link-name",
+        "meta-viewport"
+      ]
+    },
+    {
+      "name": "Heavy Industries (MoHI)",
+      "stratum": "union_ministry",
+      "profile": "confirmed_second_version",
+      "script": "Devanagari",
+      "hint": "home",
+      "en_url": "https://heavyindustries.gov.in/en",
+      "other_url": "https://heavyindustries.gov.in",
+      "probe_gain": 6456,
+      "en_final_url": "https://heavyindustries.gov.in/en",
+      "other_final_url": "https://heavyindustries.gov.in/hi",
+      "live_en_scripts": {
+        "Devanagari": 6
+      },
+      "live_other_scripts": {
+        "Devanagari": 6558
+      },
+      "live_gain": 6552,
+      "comparable": true,
+      "error": null,
+      "reason": "The regional page gained its script, so the two URLs are scored as one step in two languages.",
+      "content_gap": false,
+      "accessibility_scored": true,
+      "accessibility_gap": true,
+      "accessibility_only_en": [
+        "color-contrast"
+      ],
+      "accessibility_only_other": [
+        "list"
+      ],
+      "shared_failures": [
+        "aria-required-children",
+        "aria-required-parent",
+        "aria-valid-attr-value",
+        "image-alt",
+        "link-name",
+        "listitem",
+        "target-size"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "name": "Arunachal Pradesh",
+      "url": "https://arunachalpradesh.gov.in",
+      "profile": "alternate_link_only",
+      "reason": "no shallow English and regional homepage pair in the frame"
+    },
+    {
+      "name": "Chandigarh",
+      "url": "https://chandigarh.gov.in",
+      "profile": "indic_text_on_homepage",
+      "reason": "no shallow English and regional homepage pair in the frame"
+    },
+    {
+      "name": "Delhi",
+      "url": "https://delhi.gov.in",
+      "profile": "indic_text_on_homepage",
+      "reason": "no shallow English and regional homepage pair in the frame"
+    },
+    {
+      "name": "Goa",
+      "url": "https://www.goa.gov.in",
+      "profile": "alternate_link_only",
+      "reason": "no shallow English and regional homepage pair in the frame"
+    },
+    {
+      "name": "Kerala",
+      "url": "https://kerala.gov.in",
+      "profile": "confirmed_second_version",
+      "reason": "no shallow English and regional homepage pair in the frame"
+    },
+    {
+      "name": "Ladakh",
+      "url": "https://ladakh.gov.in",
+      "profile": "indic_text_on_homepage",
+      "reason": "no shallow English and regional homepage pair in the frame"
+    },
+    {
+      "name": "Tamil Nadu",
+      "url": "https://www.tn.gov.in",
+      "profile": "confirmed_second_version",
+      "reason": "no shallow English and regional homepage pair in the frame"
+    },
+    {
+      "name": "Telangana",
+      "url": "https://telangana.gov.in",
+      "profile": "indic_text_on_homepage",
+      "reason": "no shallow English and regional homepage pair in the frame"
+    },
+    {
+      "name": "Coal",
+      "url": "https://coal.nic.in",
+      "profile": "indic_text_on_homepage",
+      "reason": "no shallow English and regional homepage pair in the frame"
+    },
+    {
+      "name": "External Affairs (MEA)",
+      "url": "https://www.mea.gov.in",
+      "profile": "indic_text_on_homepage",
+      "reason": "no shallow English and regional homepage pair in the frame"
+    }
+  ]
+}

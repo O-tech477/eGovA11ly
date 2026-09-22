@@ -1,6 +1,11 @@
 {
   "summary": {
     "generated_at": "2026-09-22T19:55:11.504036+00:00",
+    "provenance": {
+      "script": "research/audit_esevai_pair.py",
+      "source": "https://www.tnesevai.tn.gov.in/",
+      "retrieved": "2026-09-22T19:55:11.504036+00:00"
+    },
     "engine": "axe-core",
     "tags": [
       "wcag2a",
