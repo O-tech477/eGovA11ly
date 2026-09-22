@@ -1,2 +1,5 @@
 eGovA11y_Architecture_v2.md
 eGovA11y_Brief.pdf
+.venv/
+node_modules/
+__pycache__/

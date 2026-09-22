@@ -1,0 +1,1991 @@
+{
+  "summary": {
+    "generated_at": "2026-09-22T19:12:43.108401+00:00",
+    "source": "https://igod.gov.in",
+    "strata_harvested": [
+      "union_ministry",
+      "state_portal"
+    ],
+    "strata_deferred": [
+      "union_scheme",
+      "state_department",
+      "district",
+      "judiciary",
+      "legislature"
+    ],
+    "counts": {
+      "rows": 57,
+      "with_url": 57,
+      "by_stratum": {
+        "state_portal": 36,
+        "union_ministry": 21
+      },
+      "by_profile": {
+        "confirmed_second_version": 14,
+        "no_alternate_detected": 15,
+        "alternate_link_only": 2,
+        "unreachable": 20,
+        "indic_text_on_homepage": 6
+      }
+    },
+    "method": {
+      "frame": "igod.gov.in category listings, session-backed organizations_list_more pagination",
+      "probe": "one homepage GET plus at most four same-site language alternates",
+      "confirmed_second_version": "homepage signals plus an alternate URL that returned a page show two language codes",
+      "not_done": "no WCAG/axe/LLM audit; districts and departments not harvested"
+    }
+  },
+  "rows": [
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Andaman &amp; Nicobar Islands Government",
+      "url": "https://andamannicobar.gov.in",
+      "state": "Andaman and Nicobar Islands",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/AN/categories",
+      "probed_at": "2026-09-22T19:11:56.034805+00:00",
+      "homepage": {
+        "requested_url": "https://andamannicobar.gov.in",
+        "final_url": "https://andamannicobar.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 23
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [
+        {
+          "url": "https://andamannicobar.gov.in/ANHindi/",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://andamannicobar.gov.in/ANHindi/",
+          "html_lang": "en",
+          "scripts": {
+            "Devanagari": 2652
+          },
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Andhra Pradesh Government",
+      "url": "https://www.ap.gov.in",
+      "state": "Andhra Pradesh",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/AP/categories",
+      "probed_at": "2026-09-22T19:11:56.100243+00:00",
+      "homepage": {
+        "requested_url": "https://www.ap.gov.in",
+        "final_url": "https://www.ap.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Arunachal Pradesh Government",
+      "url": "https://arunachalpradesh.gov.in",
+      "state": "Arunachal Pradesh",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/AR/categories",
+      "probed_at": "2026-09-22T19:11:56.318148+00:00",
+      "homepage": {
+        "requested_url": "https://arunachalpradesh.gov.in",
+        "final_url": "https://arunachalpradesh.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [
+        {
+          "url": "https://arunachalpradesh.gov.in?lang=en",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://arunachalpradesh.gov.in?lang=en",
+          "html_lang": "en",
+          "scripts": {},
+          "error": null
+        }
+      ],
+      "profile": "alternate_link_only"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Assam Government",
+      "url": "https://assam.gov.in",
+      "state": "Assam",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/AS/categories",
+      "probed_at": "2026-09-22T19:11:58.538120+00:00",
+      "homepage": {
+        "requested_url": "https://assam.gov.in",
+        "final_url": "https://assam.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [
+          {
+            "hreflang": "en",
+            "href": "https://assam.gov.in/"
+          },
+          {
+            "hreflang": "as",
+            "href": "https://assam.gov.in/as"
+          }
+        ],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "as",
+        "bn",
+        "en"
+      ],
+      "alternates": [
+        {
+          "url": "https://assam.gov.in/as",
+          "hint": "as",
+          "via": "hreflang",
+          "status": 200,
+          "final_url": "https://assam.gov.in/as",
+          "html_lang": "as",
+          "scripts": {
+            "Bengali": 3537
+          },
+          "error": null
+        },
+        {
+          "url": "https://assam.gov.in/citizen/427",
+          "hint": "as",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://assam.gov.in/citizen/427",
+          "html_lang": "en",
+          "scripts": {},
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Bihar Government",
+      "url": "https://state.bihar.gov.in",
+      "state": "Bihar",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/BR/categories",
+      "probed_at": "2026-09-22T19:11:59.414032+00:00",
+      "homepage": {
+        "requested_url": "https://state.bihar.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Chandigarh Administration",
+      "url": "https://chandigarh.gov.in",
+      "state": "Chandigarh",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/CH/categories",
+      "probed_at": "2026-09-22T19:11:59.651711+00:00",
+      "homepage": {
+        "requested_url": "https://chandigarh.gov.in",
+        "final_url": "https://chandigarh.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 27
+        },
+        "tls_unverified": true
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [],
+      "profile": "indic_text_on_homepage"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Chhattisgarh Government",
+      "url": "https://www.cgstate.gov.in",
+      "state": "Chhattisgarh",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/CG/categories",
+      "probed_at": "2026-09-22T19:12:00.332415+00:00",
+      "homepage": {
+        "requested_url": "https://www.cgstate.gov.in",
+        "final_url": "https://www.cgstate.gov.in/hi",
+        "status": 200,
+        "error": null,
+        "html_lang": "hi",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 4499
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [
+        {
+          "url": "https://www.cgstate.gov.in/en",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.cgstate.gov.in/en",
+          "html_lang": "en",
+          "scripts": {
+            "Devanagari": 206
+          },
+          "error": null
+        },
+        {
+          "url": "https://www.cgstate.gov.in/hi/department-registration-with-otp",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.cgstate.gov.in/hi/department-registration-with-otp",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 2342
+          },
+          "error": null
+        },
+        {
+          "url": "https://www.cgstate.gov.in/hi/history-of-cg",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.cgstate.gov.in/hi/history-of-cg",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 2874
+          },
+          "error": null
+        },
+        {
+          "url": "https://www.cgstate.gov.in/hi/pride-of-cg",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.cgstate.gov.in/hi/pride-of-cg",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 2149
+          },
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal UT of Dadra and Nagar Haveli and Daman and Diu",
+      "url": "https://ddd.gov.in",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/ND/categories",
+      "probed_at": "2026-09-22T19:12:02.297351+00:00",
+      "homepage": {
+        "requested_url": "https://ddd.gov.in",
+        "final_url": "https://ddd.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Gujarati": 81
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "gu",
+        "hi"
+      ],
+      "alternates": [
+        {
+          "url": "https://ddd.gov.in/hi/",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://ddd.gov.in/hi/",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 4465,
+            "Gujarati": 81
+          },
+          "error": null
+        },
+        {
+          "url": "https://ddd.gov.in/gu/",
+          "hint": "gu",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://ddd.gov.in/gu/",
+          "html_lang": "gu",
+          "scripts": {
+            "Gujarati": 4584
+          },
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Delhi Government",
+      "url": "https://delhi.gov.in",
+      "state": "Delhi",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/DL/categories",
+      "probed_at": "2026-09-22T19:12:05.983773+00:00",
+      "homepage": {
+        "requested_url": "https://delhi.gov.in",
+        "final_url": "https://delhi.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 34
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [],
+      "profile": "indic_text_on_homepage"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Goa Government",
+      "url": "https://www.goa.gov.in",
+      "state": "Goa",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/GA/categories",
+      "probed_at": "2026-09-22T19:12:07.535182+00:00",
+      "homepage": {
+        "requested_url": "https://www.goa.gov.in",
+        "final_url": "https://www.goa.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "enh",
+        "hreflang": [
+          {
+            "hreflang": "en-us",
+            "href": "https://www.goa.gov.in"
+          },
+          {
+            "hreflang": "en-us",
+            "href": "https://www.goa.gov.in/"
+          },
+          {
+            "hreflang": "es-us",
+            "href": "https://www.goa.gov.in/?lang=kok"
+          },
+          {
+            "hreflang": "x-default",
+            "href": "https://www.goa.gov.in/"
+          }
+        ],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "enh"
+      ],
+      "alternates": [
+        {
+          "url": "https://www.goa.gov.in/?lang=kok",
+          "hint": "es",
+          "via": "hreflang",
+          "status": null,
+          "final_url": null,
+          "html_lang": null,
+          "scripts": {},
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ],
+      "profile": "alternate_link_only"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Gujarat Government",
+      "url": "https://gujaratindia.gov.in",
+      "state": "Gujarat",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/GJ/categories",
+      "probed_at": "2026-09-22T19:12:15.069453+00:00",
+      "homepage": {
+        "requested_url": "https://gujaratindia.gov.in",
+        "final_url": "https://gujaratindia.gov.in/Index",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": true
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Haryana Government",
+      "url": "https://haryana.gov.in",
+      "state": "Haryana",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/HR/categories",
+      "probed_at": "2026-09-22T19:12:17.487353+00:00",
+      "homepage": {
+        "requested_url": "https://haryana.gov.in",
+        "final_url": "https://www.haryana.gov.in/",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 25
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [
+        {
+          "url": "https://www.haryana.gov.in/hi/",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.haryana.gov.in/hi/",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 4324
+          },
+          "error": null
+        },
+        {
+          "url": "https://www.prwww.haryana.gov.in/en/more-information/telephone-directory",
+          "hint": "en",
+          "via": "anchor",
+          "status": null,
+          "final_url": null,
+          "html_lang": null,
+          "scripts": {},
+          "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Himachal Pradesh Government",
+      "url": "https://himachal.gov.in",
+      "state": "Himachal Pradesh",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/HP/categories",
+      "probed_at": "2026-09-22T19:12:19.461880+00:00",
+      "homepage": {
+        "requested_url": "https://himachal.gov.in",
+        "final_url": "https://himachal.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Jammu and Kashmir",
+      "url": "https://jk.gov.in",
+      "state": "Jammu and Kashmir",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/JK/categories",
+      "probed_at": "2026-09-22T19:12:20.334287+00:00",
+      "homepage": {
+        "requested_url": "https://jk.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "URLError: <urlopen error [Errno 113] No route to host>",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Jharkhand Government",
+      "url": "https://www.jharkhand.gov.in",
+      "state": "Jharkhand",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/JH/categories",
+      "probed_at": "2026-09-22T19:12:20.476081+00:00",
+      "homepage": {
+        "requested_url": "https://www.jharkhand.gov.in",
+        "final_url": "https://www.jharkhand.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 1141
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "hi"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Karnataka Government",
+      "url": "https://www.karnataka.gov.in",
+      "state": "Karnataka",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/KA/categories",
+      "probed_at": "2026-09-22T19:12:20.502607+00:00",
+      "homepage": {
+        "requested_url": "https://www.karnataka.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1082)>",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Kerala Government",
+      "url": "https://kerala.gov.in",
+      "state": "Kerala",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/KL/categories",
+      "probed_at": "2026-09-22T19:12:20.933519+00:00",
+      "homepage": {
+        "requested_url": "https://kerala.gov.in",
+        "final_url": "https://kerala.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "ml",
+        "hreflang": [],
+        "scripts": {
+          "Malayalam": 6342
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "ml"
+      ],
+      "alternates": [
+        {
+          "url": "https://document.kerala.gov.in/documentdetails/en/dDVtK21nV2l6c0RxcCtWTC9oTGcvZz09",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://document.kerala.gov.in/documentdetails/en/dDVtK21nV2l6c0RxcCtWTC9oTGcvZz09",
+          "html_lang": "en",
+          "scripts": {
+            "Malayalam": 1020
+          },
+          "error": null
+        },
+        {
+          "url": "https://document.kerala.gov.in/documentdetails/en/eHcyeDczNDR5WEtGRnlEbDg4NWlNQT09",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://document.kerala.gov.in/documentdetails/en/eHcyeDczNDR5WEtGRnlEbDg4NWlNQT09",
+          "html_lang": "en",
+          "scripts": {},
+          "error": null
+        },
+        {
+          "url": "https://document.kerala.gov.in/documentdetails/en/TGxDdnM3eTYwSE0zanV1Tm53UW1EQT09",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://document.kerala.gov.in/documentdetails/en/TGxDdnM3eTYwSE0zanV1Tm53UW1EQT09",
+          "html_lang": "en",
+          "scripts": {},
+          "error": null
+        },
+        {
+          "url": "https://document.kerala.gov.in/documentdetails/en/V0xnSVVqcm15MWpOZjF2MWJEcHVRdz09",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://document.kerala.gov.in/documentdetails/en/V0xnSVVqcm15MWpOZjF2MWJEcHVRdz09",
+          "html_lang": "en",
+          "scripts": {},
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Ladakh Government",
+      "url": "https://ladakh.gov.in",
+      "state": "Ladakh",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/LA/categories",
+      "probed_at": "2026-09-22T19:12:23.459749+00:00",
+      "homepage": {
+        "requested_url": "https://ladakh.gov.in",
+        "final_url": "https://ladakh.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 55
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [],
+      "profile": "indic_text_on_homepage"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Lakshadweep Government",
+      "url": "https://lakshadweep.gov.in",
+      "state": "Lakshadweep",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/LD/categories",
+      "probed_at": "2026-09-22T19:12:23.467921+00:00",
+      "homepage": {
+        "requested_url": "https://lakshadweep.gov.in",
+        "final_url": "https://lakshadweep.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [
+          {
+            "hreflang": "en",
+            "href": "https://lakshadweep.gov.in/"
+          },
+          {
+            "hreflang": "hi",
+            "href": "https://lakshadweep.gov.in/hi/"
+          }
+        ],
+        "scripts": {
+          "Devanagari": 39
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [
+        {
+          "url": "https://lakshadweep.gov.in/hi/",
+          "hint": "hi",
+          "via": "hreflang",
+          "status": 200,
+          "final_url": "https://lakshadweep.gov.in/hi/",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 3513
+          },
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Madhya Pradesh Government",
+      "url": "https://mp.gov.in",
+      "state": "Madhya Pradesh",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/MP/categories",
+      "probed_at": "2026-09-22T19:12:24.619392+00:00",
+      "homepage": {
+        "requested_url": "https://mp.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "URLError: <urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1082)>",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Maharashtra Government",
+      "url": "https://www.maharashtra.gov.in",
+      "state": "Maharashtra",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/MH/categories",
+      "probed_at": "2026-09-22T19:12:24.970014+00:00",
+      "homepage": {
+        "requested_url": "https://www.maharashtra.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "URLError: <urlopen error timed out>",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Manipur Government",
+      "url": "https://manipur.gov.in",
+      "state": "Manipur",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/MN/categories",
+      "probed_at": "2026-09-22T19:12:25.375152+00:00",
+      "homepage": {
+        "requested_url": "https://manipur.gov.in",
+        "final_url": "https://manipur.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Meghalaya Government",
+      "url": "https://meghalaya.gov.in",
+      "state": "Meghalaya",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/ML/categories",
+      "probed_at": "2026-09-22T19:12:25.402289+00:00",
+      "homepage": {
+        "requested_url": "https://meghalaya.gov.in",
+        "final_url": "https://meghalaya.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Mizoram Government",
+      "url": "https://www.mizoram.gov.in",
+      "state": "Mizoram",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/MZ/categories",
+      "probed_at": "2026-09-22T19:12:25.996341+00:00",
+      "homepage": {
+        "requested_url": "https://www.mizoram.gov.in",
+        "final_url": "https://www.mizoram.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Nagaland Government",
+      "url": "https://www.nagaland.gov.in",
+      "state": "Nagaland",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/NL/categories",
+      "probed_at": "2026-09-22T19:12:26.041113+00:00",
+      "homepage": {
+        "requested_url": "https://www.nagaland.gov.in",
+        "final_url": "https://www.nagaland.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Odisha Government",
+      "url": "https://odisha.gov.in",
+      "state": "Odisha",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/OD/categories",
+      "probed_at": "2026-09-22T19:12:26.490202+00:00",
+      "homepage": {
+        "requested_url": "https://odisha.gov.in",
+        "final_url": "https://odisha.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {
+          "Odia": 4649
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "or"
+      ],
+      "alternates": [
+        {
+          "url": "https://odisha.gov.in/or/screen-reader",
+          "hint": "or",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://odisha.gov.in/or/screen-reader",
+          "html_lang": null,
+          "scripts": {
+            "Odia": 2983
+          },
+          "error": null
+        },
+        {
+          "url": "https://odisha.gov.in/or/sitemap",
+          "hint": "or",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://odisha.gov.in/or/sitemap",
+          "html_lang": null,
+          "scripts": {
+            "Odia": 3539
+          },
+          "error": null
+        },
+        {
+          "url": "https://odisha.gov.in/en",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://odisha.gov.in/en",
+          "html_lang": null,
+          "scripts": {
+            "Odia": 229
+          },
+          "error": null
+        },
+        {
+          "url": "https://odisha.gov.in/or",
+          "hint": "or",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://odisha.gov.in/or",
+          "html_lang": null,
+          "scripts": {
+            "Odia": 4649
+          },
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Puducherry Government",
+      "url": "https://www.py.gov.in",
+      "state": "Puducherry",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/PY/categories",
+      "probed_at": "2026-09-22T19:12:26.791890+00:00",
+      "homepage": {
+        "requested_url": "https://www.py.gov.in",
+        "final_url": "https://www.py.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Punjab Government",
+      "url": "https://punjab.gov.in",
+      "state": "Punjab",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/PB/categories",
+      "probed_at": "2026-09-22T19:12:27.295482+00:00",
+      "homepage": {
+        "requested_url": "https://punjab.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "URLError: <urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1082)>",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Rajasthan Government",
+      "url": "https://www.rajasthan.gov.in",
+      "state": "Rajasthan",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/RJ/categories",
+      "probed_at": "2026-09-22T19:12:27.604889+00:00",
+      "homepage": {
+        "requested_url": "https://www.rajasthan.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Sikkim Government",
+      "url": "https://sikkim.gov.in",
+      "state": "Sikkim",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/SK/categories",
+      "probed_at": "2026-09-22T19:12:27.739608+00:00",
+      "homepage": {
+        "requested_url": "https://sikkim.gov.in",
+        "final_url": "https://www.sikkim.gov.in/",
+        "status": 200,
+        "error": null,
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Tamil Nadu Government",
+      "url": "https://www.tn.gov.in",
+      "state": "Tamil Nadu",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/TN/categories",
+      "probed_at": "2026-09-22T19:12:29.811423+00:00",
+      "homepage": {
+        "requested_url": "https://www.tn.gov.in",
+        "final_url": "https://www.tn.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Tamil": 78
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "ta"
+      ],
+      "alternates": [
+        {
+          "url": "https://www.tn.gov.in/index.php",
+          "hint": "ta",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.tn.gov.in/index.php",
+          "html_lang": "en",
+          "scripts": {
+            "Tamil": 78
+          },
+          "error": null
+        },
+        {
+          "url": "https://cms.tn.gov.in/cms_migrated/document/forms/TN_Waqf_Board_Election_Nomination_Form.pdf",
+          "hint": "ta",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://cms.tn.gov.in/cms_migrated/document/forms/TN_Waqf_Board_Election_Nomination_Form.pdf",
+          "html_lang": null,
+          "scripts": {},
+          "error": null
+        },
+        {
+          "url": "https://cms.tn.gov.in/cms_migrated/document/GO/public_e_575_2026.pdf",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://cms.tn.gov.in/cms_migrated/document/GO/public_e_575_2026.pdf",
+          "html_lang": null,
+          "scripts": {},
+          "error": null
+        },
+        {
+          "url": "https://cms.tn.gov.in/cms_migrated/document/GO/fin_e_15120106_2026.pdf",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://cms.tn.gov.in/cms_migrated/document/GO/fin_e_15120106_2026.pdf",
+          "html_lang": null,
+          "scripts": {},
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Telangana Government",
+      "url": "https://telangana.gov.in",
+      "state": "Telangana",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/TS/categories",
+      "probed_at": "2026-09-22T19:12:29.998926+00:00",
+      "homepage": {
+        "requested_url": "https://telangana.gov.in",
+        "final_url": "https://www.telangana.gov.in/",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Telugu": 2378
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "te"
+      ],
+      "alternates": [],
+      "profile": "indic_text_on_homepage"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Tripura Government",
+      "url": "https://tripura.gov.in",
+      "state": "Tripura",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/TR/categories",
+      "probed_at": "2026-09-22T19:12:30.920241+00:00",
+      "homepage": {
+        "requested_url": "https://tripura.gov.in",
+        "final_url": "https://tripura.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Uttar Pradesh Government",
+      "url": "https://up.gov.in",
+      "state": "Uttar Pradesh",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/UP/categories",
+      "probed_at": "2026-09-22T19:12:31.327742+00:00",
+      "homepage": {
+        "requested_url": "https://up.gov.in",
+        "final_url": "https://up.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of Uttarakhand Government",
+      "url": "https://uk.gov.in",
+      "state": "Uttarakhand",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/UK/categories",
+      "probed_at": "2026-09-22T19:12:31.702801+00:00",
+      "homepage": {
+        "requested_url": "https://uk.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "URLError: <urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1082)>",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "state_portal",
+      "name": "Official Portal of West Bengal Government",
+      "url": "https://wb.gov.in",
+      "state": "West Bengal",
+      "igod_detail": null,
+      "source_page": "https://igod.gov.in/index.php/sg/WB/categories",
+      "probed_at": "2026-09-22T19:12:31.724623+00:00",
+      "homepage": {
+        "requested_url": "https://wb.gov.in",
+        "final_url": "https://wb.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "AYUSH (MoA)",
+      "url": "https://ayush.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/Rc4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:37.897195+00:00",
+      "homepage": {
+        "requested_url": "https://ayush.gov.in",
+        "final_url": "https://ayush.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Chemicals and Fertilizers (MoCF)",
+      "url": "https://mocf.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/Fc4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:37.898114+00:00",
+      "homepage": {
+        "requested_url": "https://mocf.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "URLError: <urlopen error timed out>",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Civil Aviation (MoCA)",
+      "url": "https://www.civilaviation.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/Fs4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:37.899260+00:00",
+      "homepage": {
+        "requested_url": "https://www.civilaviation.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 403: Forbidden",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Coal",
+      "url": "https://coal.nic.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/F84zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:37.900953+00:00",
+      "homepage": {
+        "requested_url": "https://coal.nic.in",
+        "final_url": "https://coal.nic.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 28
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [],
+      "profile": "indic_text_on_homepage"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Commerce and Industry (MoCI)",
+      "url": "https://www.moci.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/GM4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:37.901671+00:00",
+      "homepage": {
+        "requested_url": "https://www.moci.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 403: Forbidden",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Cooperation",
+      "url": "https://www.cooperation.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/3p8Len0BjXgo0VKujWP3",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:38.089319+00:00",
+      "homepage": {
+        "requested_url": "https://www.cooperation.gov.in",
+        "final_url": "https://www.cooperation.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "hi",
+        "hreflang": [
+          {
+            "hreflang": "en",
+            "href": "http://www.cooperation.gov.in/en"
+          }
+        ],
+        "scripts": {
+          "Devanagari": 6827
+        },
+        "tls_unverified": true
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [
+        {
+          "url": "http://www.cooperation.gov.in/en",
+          "hint": "en",
+          "via": "hreflang",
+          "status": null,
+          "final_url": null,
+          "html_lang": null,
+          "scripts": {},
+          "error": "ConnectionResetError: [Errno 104] Connection reset by peer"
+        },
+        {
+          "url": "https://www.cooperation.gov.in/en",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.cooperation.gov.in/en",
+          "html_lang": "en",
+          "scripts": {
+            "Devanagari": 25
+          },
+          "error": null
+        },
+        {
+          "url": "https://www.cooperation.gov.in/hi",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.cooperation.gov.in/hi",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 6827
+          },
+          "error": null
+        },
+        {
+          "url": "https://www.cooperation.gov.in/hi/ministry-cooperation",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.cooperation.gov.in/hi/ministry-cooperation",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 4220
+          },
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Corporate Affairs (MCA)",
+      "url": "https://www.mca.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/G84zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:38.244800+00:00",
+      "homepage": {
+        "requested_url": "https://www.mca.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 403: Forbidden",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Culture",
+      "url": "https://culture.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/HM4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:38.265374+00:00",
+      "homepage": {
+        "requested_url": "https://culture.gov.in",
+        "final_url": "https://culture.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [
+          {
+            "hreflang": "en",
+            "href": "https://culture.gov.in/"
+          },
+          {
+            "hreflang": "hi",
+            "href": "https://culture.gov.in/hi"
+          }
+        ],
+        "scripts": {},
+        "tls_unverified": true
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [
+        {
+          "url": "https://culture.gov.in/hi",
+          "hint": "hi",
+          "via": "hreflang",
+          "status": 200,
+          "final_url": "https://culture.gov.in/hi",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 105
+          },
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Defence (MoD)",
+      "url": "https://www.mod.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/Hc4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:38.326192+00:00",
+      "homepage": {
+        "requested_url": "https://www.mod.gov.in",
+        "final_url": "https://www.mod.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "hi",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 3313
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [
+        {
+          "url": "https://www.mod.gov.in/hi/screen-reader-hindi",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.mod.gov.in/hi/screen-reader-hindi",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 3060
+          },
+          "error": null
+        },
+        {
+          "url": "https://www.mod.gov.in/hi",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.mod.gov.in/hi",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 3313
+          },
+          "error": null
+        },
+        {
+          "url": "https://www.mod.gov.in/en",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.mod.gov.in/en",
+          "html_lang": "en",
+          "scripts": {
+            "Devanagari": 595
+          },
+          "error": null
+        },
+        {
+          "url": "https://www.mod.gov.in/hi/organization_chart",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.mod.gov.in/hi/organization_chart",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 1758
+          },
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Development of North Eastern Region (MDONER)",
+      "url": "https://mdoner.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/Q84zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:38.348589+00:00",
+      "homepage": {
+        "requested_url": "https://mdoner.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 403: Forbidden",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Earth Sciences (MoES)",
+      "url": "https://moes.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/Hs4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:39.183415+00:00",
+      "homepage": {
+        "requested_url": "https://moes.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 403: Forbidden",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Education (MoE)",
+      "url": "https://www.education.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/J84zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:39.878813+00:00",
+      "homepage": {
+        "requested_url": "https://www.education.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 403: Forbidden",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Electronics and Information Technology (MeitY)",
+      "url": "https://meity.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/RM4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:40.067082+00:00",
+      "homepage": {
+        "requested_url": "https://meity.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 403: Forbidden",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Environment, Forest and Climate Change (MoEFCC)",
+      "url": "https://moef.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/H84zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:40.510588+00:00",
+      "homepage": {
+        "requested_url": "https://moef.gov.in",
+        "final_url": "https://moef.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "hi",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 11646
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "hi"
+      ],
+      "alternates": [],
+      "profile": "no_alternate_detected"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "External Affairs (MEA)",
+      "url": "https://www.mea.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/IM4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:40.990983+00:00",
+      "homepage": {
+        "requested_url": "https://www.mea.gov.in",
+        "final_url": "https://www.mea.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 122
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [],
+      "profile": "indic_text_on_homepage"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Finance (MoF)",
+      "url": "https://finmin.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/Ic4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:41.203893+00:00",
+      "homepage": {
+        "requested_url": "https://finmin.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "URLError: <urlopen error timed out>",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Food Processing Industries (MoFPI)",
+      "url": "https://mofpi.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/Is4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:41.633851+00:00",
+      "homepage": {
+        "requested_url": "https://mofpi.gov.in",
+        "final_url": "https://mofpi.gov.in",
+        "status": 200,
+        "error": null,
+        "html_lang": "en",
+        "hreflang": [],
+        "scripts": {
+          "Devanagari": 44
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [
+        {
+          "url": "https://www.mofpi.gov.in/hi",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://www.mofpi.gov.in/hi",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 11133
+          },
+          "error": null
+        },
+        {
+          "url": "https://mofpi.gov.in/en",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://mofpi.gov.in/en",
+          "html_lang": "en",
+          "scripts": {
+            "Devanagari": 44
+          },
+          "error": null
+        },
+        {
+          "url": "https://mofpi.gov.in/en/about-us/whos-who",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://mofpi.gov.in/en/about-us/whos-who",
+          "html_lang": "en",
+          "scripts": {
+            "Devanagari": 44
+          },
+          "error": null
+        },
+        {
+          "url": "https://mofpi.gov.in/en/goals-and-roles",
+          "hint": "en",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://mofpi.gov.in/en/goals-and-roles",
+          "html_lang": "en",
+          "scripts": {
+            "Devanagari": 44
+          },
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Health and Family Welfare (MoHFW)",
+      "url": "https://mohfw.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/I84zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:48.035425+00:00",
+      "homepage": {
+        "requested_url": "https://mohfw.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 403: Forbidden",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Heavy Industries (MoHI)",
+      "url": "https://heavyindustries.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/JM4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:48.629535+00:00",
+      "homepage": {
+        "requested_url": "https://heavyindustries.gov.in",
+        "final_url": "https://heavyindustries.gov.in/hi",
+        "status": 200,
+        "error": null,
+        "html_lang": "hi",
+        "hreflang": [
+          {
+            "hreflang": "en",
+            "href": "https://heavyindustries.gov.in/en"
+          },
+          {
+            "hreflang": "hi",
+            "href": "https://heavyindustries.gov.in/hi"
+          }
+        ],
+        "scripts": {
+          "Devanagari": 6456
+        },
+        "tls_unverified": false
+      },
+      "language_codes": [
+        "en",
+        "hi"
+      ],
+      "alternates": [
+        {
+          "url": "https://heavyindustries.gov.in/en",
+          "hint": "en",
+          "via": "hreflang",
+          "status": 200,
+          "final_url": "https://heavyindustries.gov.in/en",
+          "html_lang": "en",
+          "scripts": {},
+          "error": null
+        },
+        {
+          "url": "https://heavyindustries.gov.in/hi/contact-mhi",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://heavyindustries.gov.in/hi/contact-mhi",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 2232
+          },
+          "error": null
+        },
+        {
+          "url": "https://heavyindustries.gov.in/hi/form/feedback",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://heavyindustries.gov.in/hi/form/feedback",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 2035
+          },
+          "error": null
+        },
+        {
+          "url": "https://heavyindustries.gov.in/hi/sitemap",
+          "hint": "hi",
+          "via": "anchor",
+          "status": 200,
+          "final_url": "https://heavyindustries.gov.in/hi/sitemap",
+          "html_lang": "hi",
+          "scripts": {
+            "Devanagari": 3384
+          },
+          "error": null
+        }
+      ],
+      "profile": "confirmed_second_version"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Home Affairs (MHA)",
+      "url": "https://mha.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/Jc4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:54.603931+00:00",
+      "homepage": {
+        "requested_url": "https://mha.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 404: Not Found",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    },
+    {
+      "stratum": "union_ministry",
+      "name": "Housing and Urban Affairs (MoHUA)",
+      "url": "https://mohua.gov.in",
+      "state": null,
+      "igod_detail": "https://igod.gov.in/index.php/organization/Js4zv3QBGZk0jujBKgGW",
+      "source_page": "https://igod.gov.in/index.php/ug/E002/organizations",
+      "probed_at": "2026-09-22T19:11:55.627595+00:00",
+      "homepage": {
+        "requested_url": "https://mohua.gov.in",
+        "final_url": null,
+        "status": null,
+        "error": "HTTPError: HTTP Error 403: Forbidden",
+        "html_lang": null,
+        "hreflang": [],
+        "scripts": {},
+        "tls_unverified": false
+      },
+      "language_codes": [],
+      "alternates": [],
+      "profile": "unreachable"
+    }
+  ]
+}

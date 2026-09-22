@@ -1,0 +1,322 @@
+{
+  "summary": {
+    "generated_at": "2026-09-22T19:55:11.504036+00:00",
+    "engine": "axe-core",
+    "tags": [
+      "wcag2a",
+      "wcag2aa",
+      "wcag21a",
+      "wcag21aa",
+      "wcag22aa"
+    ],
+    "service": "Community Certificate",
+    "service_code": "REV-101",
+    "portal": "https://www.tnesevai.tn.gov.in/",
+    "language_mechanism": "ASP.NET postback on one URL (English Version / தமிழ் வடிவம்), not two URLs",
+    "application_form": "behind sign-in; not audited",
+    "compared_pages": [
+      "portal_entry",
+      "service_list"
+    ],
+    "en_error": null,
+    "ta_error": null
+  },
+  "en": {
+    "portal_entry": {
+      "final_url": "https://www.tnesevai.tn.gov.in/",
+      "title": "TNeGA",
+      "html_lang": null,
+      "tamil_chars": 27,
+      "offers_english_switch": false,
+      "offers_tamil_switch": true,
+      "names_service": false,
+      "violation_count": 6,
+      "rule_count": 5,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "help": "<html> element must have a lang attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag311"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "help": "Images must have alternative text",
+          "wcag": [
+            "wcag2a",
+            "wcag111"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "wcag": [
+            "wcag2a",
+            "wcag222"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "wcag": [
+            "wcag22aa",
+            "wcag258"
+          ],
+          "nodes": 2
+        }
+      ],
+      "error": null
+    },
+    "service_list": {
+      "final_url": "https://www.tnesevai.tn.gov.in/Pages/EsevaiServiceList.aspx",
+      "title": "TNeGA",
+      "html_lang": null,
+      "tamil_chars": 16,
+      "offers_english_switch": false,
+      "offers_tamil_switch": false,
+      "names_service": true,
+      "violation_count": 3,
+      "rule_count": 2,
+      "violations": [
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "help": "<html> element must have a lang attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag311"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "wcag": [
+            "wcag22aa",
+            "wcag258"
+          ],
+          "nodes": 2
+        }
+      ],
+      "error": null
+    },
+    "error": null
+  },
+  "ta": {
+    "portal_entry": {
+      "final_url": "https://www.tnesevai.tn.gov.in/",
+      "title": "TNeGA",
+      "html_lang": null,
+      "tamil_chars": 1642,
+      "offers_english_switch": true,
+      "offers_tamil_switch": false,
+      "names_service": false,
+      "violation_count": 6,
+      "rule_count": 5,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "help": "<html> element must have a lang attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag311"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "help": "Images must have alternative text",
+          "wcag": [
+            "wcag2a",
+            "wcag111"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "wcag": [
+            "wcag2a",
+            "wcag222"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "wcag": [
+            "wcag22aa",
+            "wcag258"
+          ],
+          "nodes": 2
+        }
+      ],
+      "error": null
+    },
+    "service_list": {
+      "final_url": "https://www.tnesevai.tn.gov.in/Pages/EsevaiServiceList.aspx",
+      "title": "TNeGA",
+      "html_lang": null,
+      "tamil_chars": 16,
+      "offers_english_switch": false,
+      "offers_tamil_switch": false,
+      "names_service": true,
+      "violation_count": 3,
+      "rule_count": 2,
+      "violations": [
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "help": "<html> element must have a lang attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag311"
+          ],
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "wcag": [
+            "wcag22aa",
+            "wcag258"
+          ],
+          "nodes": 2
+        }
+      ],
+      "error": null
+    },
+    "error": null
+  },
+  "comparison": {
+    "portal_entry": {
+      "nodes_en": 6,
+      "nodes_ta": 6,
+      "rules_en": 5,
+      "rules_ta": 5,
+      "tamil_chars_en": 27,
+      "tamil_chars_ta": 1642,
+      "both": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes_en": 1,
+          "nodes_ta": 1
+        },
+        {
+          "id": "html-has-lang",
+          "help": "<html> element must have a lang attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag311"
+          ],
+          "nodes_en": 1,
+          "nodes_ta": 1
+        },
+        {
+          "id": "image-alt",
+          "help": "Images must have alternative text",
+          "wcag": [
+            "wcag2a",
+            "wcag111"
+          ],
+          "nodes_en": 1,
+          "nodes_ta": 1
+        },
+        {
+          "id": "marquee",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "wcag": [
+            "wcag2a",
+            "wcag222"
+          ],
+          "nodes_en": 1,
+          "nodes_ta": 1
+        },
+        {
+          "id": "target-size",
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "wcag": [
+            "wcag22aa",
+            "wcag258"
+          ],
+          "nodes_en": 2,
+          "nodes_ta": 2
+        }
+      ],
+      "only_en": [],
+      "only_ta": []
+    },
+    "service_list": {
+      "nodes_en": 3,
+      "nodes_ta": 3,
+      "rules_en": 2,
+      "rules_ta": 2,
+      "tamil_chars_en": 16,
+      "tamil_chars_ta": 16,
+      "both": [
+        {
+          "id": "html-has-lang",
+          "help": "<html> element must have a lang attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag311"
+          ],
+          "nodes_en": 1,
+          "nodes_ta": 1
+        },
+        {
+          "id": "target-size",
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "wcag": [
+            "wcag22aa",
+            "wcag258"
+          ],
+          "nodes_en": 2,
+          "nodes_ta": 2
+        }
+      ],
+      "only_en": [],
+      "only_ta": []
+    }
+  }
+}
